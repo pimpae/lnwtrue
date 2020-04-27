@@ -1,0 +1,361 @@
+@font-face{
+  font-family: Kanit-Bold;
+  src: url(../fonts/kanit/Kanit-Bold.ttf);
+  font-style: normal;
+  font-variant:initial;
+}
+@font-face{
+  font-family: Kanit-Light;
+  src: url(../fonts/kanit/Kanit-Light.ttf);
+  font-style: normal;
+  font-variant:initial;
+}
+@font-face{
+  font-family: Kanit-Medium;
+  src: url(../fonts/kanit/Kanit-Medium.ttf);
+  font-style: normal;
+  font-variant:initial;
+}
+ 
+@font-face{
+  font-family: Kanit-Regular;
+  src: url(../fonts/kanit/Kanit-Regular.ttf);
+  font-style: normal;
+  font-variant:initial;
+}
+@font-face{
+  font-family: FontAwesome;
+  src: url(../fonts/fonts/FontAwesome.otf);
+  font-style: normal;
+  font-variant:initial;
+}
+ 
+@font-face {
+  font-family: 'Linearicons';
+  src: url("../fonts/Linearicons-Free.ttf");
+  
+}
+ 
+/*html {
+  scroll-behavior: smooth;
+}*/
+.none-pad{
+  padding: 0px 0px 0px 0px !important;
+} 
+.none-pad-r{
+  padding: 0px 5px 0px 0px !important;
+} 
+.none-right{
+  margin-right: -15px;
+} 
+.none-left{
+  margin-left: -15px;
+} 
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+ 
+.navbar-toggler-left .fa-bars{
+  color: #fff !important;
+}
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }
+  .none-xs{
+    padding: 0px 0px 0px 0px !important;
+  }
+  .none-xxs{
+    padding: -15px -15px -15px -15px !important;
+  }
+  .marx-15{
+    margin-top: 15px;
+  }
+  .centered .text .title{
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 992px) { /* PC */
+  .pc-x{
+    display: none !important;
+  } 
+  .centered .text .title{
+    font-size: 32px;
+  }
+}
+
+ 
+
+
+a:hover{
+  text-decoration: none;
+}
+/*.banner {
+  height: 100vh;
+}*/ 
+
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  line-height: 35px;
+} 
+.fixed-top{
+  margin-top: 108px;
+}
+ 
+
+ 
+.navbar {
+  background: linear-gradient(to bottom,rgba(62,70,119,1) 0%,rgba(0,0,0,1) 90%,rgba(0,0,0,1) 100%);
+  padding: 0px;
+} 
+
+.top-bar{
+  background-color: #454352;
+  background: url(../images/top.jpg) no-repeat center top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+ 
+}
+
+.top-bar img.logo{
+  height: 88px;
+}
+
+
+.nav-text .nav-item .nav-link{
+  font-family: Kanit-Regular;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #fff;
+}
+.nav-text .nav-item.active .nav-link,.nav-text .nav-item .nav-link:hover{
+  color: #FF3366 !important;
+}
+
+main{
+  padding-top: 25px;
+  background: url(../images/body.jpg) no-repeat center top;
+  background-color: #22212a;
+}
+.top-menux a.link1{
+  font-family: Kanit-Light;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 100px;
+}
+.top-menux a.link1:hover{
+  color: #FF3366; 
+}
+
+.top-menux .dropdown{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.top-menux .dropdown .btn{
+  font-family: Kanit-Light;
+  font-size: 14px;
+  color: #fff;
+  margin-top: -8px;
+}
+.top-menux .dropdown .btn:hover{
+  color: #FF3366;
+}
+.dropdown-menu{
+  margin-top: -4px;
+  border-radius: 0px;
+      padding: 0.25rem 0;
+}
+.dropdown-menu .dropdown-item:hover{
+  background-color: #FCA53C;
+}
+
+a.cart {
+  color: #fff;
+  font-family: Kanit-Regular;
+  margin-left: 40px;
+}
+
+a.cart span{
+  font-size: 30px;
+  color: #fff;
+  margin-top: 5px;
+  line-height: 50px;
+}
+a.cart p{
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  background-color: #FF3366;
+  text-align: center;
+  color: #fff;
+  position: absolute; 
+  top: 0; 
+  font-size: 14px;
+  padding-top: 2px;
+  margin-left:60px;
+}
+.h3-card h3{
+  background-color: #7E7C8E;
+  color: #fff;
+  font-family: Kanit-Regular;
+  text-align: left;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #FF3366;
+  margin-bottom: 0px;
+  padding-left: 10px;
+}
+
+.h3-card .body{
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.h3-card .body ul.labe{
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+ 
+}
+.h3-card .body ul.labe li{
+  font-family: Kanit-Regular;
+  color: #8c8888;
+  font-size: 13px;
+  line-height: 30px;
+  padding-left: 25px;
+}
+
+.h3-card .body ul.labe li img{
+  margin-right: 5px;
+  position: absolute;
+  left: 0;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+.h3-card .body ul.labe li span{
+  margin-right: 5px;
+  position: absolute;
+  right: 0;  
+  margin-right: 15px;
+  font-family: Kanit-Light;
+  font-style: italic;
+  width: 48px;
+}
+
+ 
+.h3-card .body ul.labe li span.b-online:before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  margin-left: -18px;
+  margin-top: 10px;
+  background-color: #82b52b;
+}
+.h3-card .body ul.labe li span.b-offline:before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  margin-left: -18px;
+  margin-top: 10px;
+  background-color: #e83905;
+}
+.h3-card .body ul.labe li span.b-online{
+  font-size: 12px !important;
+}
+
+.h3-card .body ul.labe li span.b-offline{
+  font-size: 10px !important;
+}
+.box-review a{
+  font-family: Kanit-Regular;
+  font-size: 14px;
+  color: #7e7c8e;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.box-review .profile-img{
+  text-align: center;
+  width: 88px;
+  height: 88px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 3px solid #eee;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.box-review p{
+  font-size: 12px;
+  line-height: 25px;
+  color: #666;
+  text-align: left;
+  line-height: 20px;
+  font-family: Kanit-Regular;
+}
+.box-review  span{
+  color: #5890FF;
+  font-size: 11px;
+}
+
+.hr-x{
+  margin-top: 15px;
+ 
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.service-i{
+  padding-left: 80px;
+  margin-top: 15px;
+}
+.service-i div{
+  background-color: #8F94D6;
+  padding:10px;
+  border-radius: 100%;
+  width:66px;
+  height:66px;
+  position: absolute;
+  left: 0;
+ 
+}
+.service-i div img{
+  margin:auto;
+  display: block;
+}
+.service-i h6{
+  font-family: Kanit-Regular;
+  color: whitesmoke;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.service-i p{
+  font-family: Kanit-Regular;
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+
+
+
+/*FF3366*/
