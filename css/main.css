@@ -97,7 +97,7 @@ a:hover{
 
 
 .navbar-nav .nav-item .nav-link {
-  font-size: 14px;
+  
   line-height: 35px;
 } 
 .fixed-top{
@@ -127,7 +127,7 @@ a:hover{
 
 .nav-text .nav-item .nav-link{
   font-family: Kanit-Regular;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 15px;
   margin-right: 15px;
   color: #fff;
@@ -355,7 +355,254 @@ a.cart p{
   font-size: 14px;
 }
 
+footer{
+  background-color: #EEEEEE;
+}
+
+footer .box-f{
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 15px 0;
+}
+footer .box-f img{
+  height: 33px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+footer h6{
+  color: #000;
+  font-family: Kanit-Regular;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+footer small{
+  color: #000;
+  font-family: Kanit-Regular;
+  font-size: 10px;
+  text-align: center; 
+}
+
+footer .menu-bto{
+  list-style: none;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
 
 
+footer .menu-bto li{
+  display: inline;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+footer .menu-bto li:after{
+  content: "";
+  border-right: 1px solid #06c;
+  height: 10px; 
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+footer .menu-bto li:last-child:after{
+  content: "";
+  border-right: 1px solid #EEEEEE;
+  height: 10px; 
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+footer .menu-bto li a{
+  font-size: 12px;
+  font-family: Kanit-Regular;
+}
+footer .menu-bto li a:hover{
+  color: #FF3366;
+}
+.card-boxx{
+  border-bottom: 2px solid #FF3366;
+  
+}
+
+.img-cardx{
+  border-bottom: 2px solid #FF3366;
+  padding-bottom: 15px;
+}
+.card-boxx h3{
+  font-family: Kanit-Regular;
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.card-boxx-sel select{
+  font-family: Kanit-Regular;
+  font-size: 12px;
+  margin-bottom: 5px;
+  height: 30px;
+  border-radius: 0px;
+}
+.img-cardx img{
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.img-cardx img:hover{
+  box-shadow: 0px 0px 21px -4px rgba(255,255,255,1);
+}
+
+.main-card{
+  margin-top: 15px;
+  background-color: #fff;
+}
+.main-card .colx-4{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.main-card .colx-4 img{ 
+  -webkit-border-radius: 5px;
+  border: 1px solid #dcdcdc;
+}
+.main-card .m h3{
+  color: #22212a; 
+  font-size: 18px;
+  font-family: Kanit-Regular;
+}
+.main-card .m h6{
+  color: #aaa; 
+  font-size: 14px;
+  font-family: Kanit-Regular;
+}
+.main-card .m h6 span{
+  color: #8f94d6; 
+  font-size: 14px;
+  font-family: Kanit-Regular;
+}
+.card-price{
+  border-top: 1px solid #ccc;
+  /*border-bottom: 1px solid #ccc;*/
+  padding-bottom: 15px;
+}
+
+.card-hr{
+  border-bottom: 1px solid #ccc;
+}
+
+
+.ex-now {
+  list-style-type: none;
+  margin: 0  ;
+  padding: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.ex-now li {
+  float: left;
+  margin: 0  ;
+  width: 14%;
+  height: 40px;
+  position: relative;
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-top: 15px;
+ 
+}
+
+.ex-now label,
+.ex-now input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /*box-shadow: inset 0 0 1px #999, 0 0 5px #ccc;
+  border-radius: 10px;
+  padding: 20px 0;
+  margin-bottom: 10px;*/
+}
+
+.ex-now input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.ex-now input[type="radio"]:checked+label,
+.Checked+label {
+  background-color: #FF3366; 
+  color: #fff;
+}
+
+.ex-now label {
+  padding: 25px 0; 
+  border: 1px solid #FF3366;
+  cursor: pointer;
+  z-index: 90;
+  border-radius: 6px;
+  text-align: center;
+  font-family: Kanit-Medium;
+  color: #000; 
+  background-color: rgba(228,230,225,.52);
+  line-height: 0px;
+  font-size: 14px;
+}
+.ex-now label:after{
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/coin.png") ;
+  background-size: 15px 15px;
+  top: 10px;
+  background-repeat: no-repeat;
+  right: 5px;
+  position: absolute;
+  display: inline-block;
+}
+
+.ex-now label:hover {
+  background: #FF3366;
+  color: #fff;
+}
+
+
+.form-card input{
+  height: 30px; 
+  
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-family: Kanit-Regular;
+}
+
+.form-card input:before {
+    content: "จำนวน:";
+}
+
+.btn-cart{
+  background-color: #FF3366;
+  color: #fff;
+  font-family: Kanit-Regular;
+ 
+  font-size: 11px;
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+.btn-cart:hover{
+  background-color: #CC0033;
+  color: #fff;
+}
+.card-bbx label{
+  color: #000;
+  font-family: Kanit-Regular;
+  font-size: 11px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
 
 /*FF3366*/
