@@ -504,7 +504,6 @@ footer .menu-bto li a:hover{
 .ex-now li {
   float: left;
   margin: 0  ;
-  width: 14%;
   height: 40px;
   position: relative;
   margin-right: 4px;
@@ -606,3 +605,96 @@ footer .menu-bto li a:hover{
 }
 
 /*FF3366*/
+
+
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .top-bar{
+    padding-left: 0px;
+  }
+  .top-bar .logo{
+    display: block;
+    margin: auto;
+  }
+  .ex-now li {
+ 
+    width:29%;
+  }
+}
+@media only screen and (min-width: 992px) { /* PC */
+  
+}
+
+
+
+
+
+#menuslide {
+  display:none; 
+  background-color: rgba(0,0,0,0);
+  width: 100%;
+  z-index: 2032 !important;
+}
+.div-menu{
+  position: fixed;
+  background-color:#fff;
+  top: 0px;
+  right: 0px;
+  width: 292px;
+  height: 100%;
+  z-index: 1000;
+} 
+
+.data-list .data-list-x {
+  padding-left:50px;
+  text-align: left;
+}
+.data-list ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.data-list ul li {
+  font-size: 16px;
+  padding-bottom: 10px;
+  width: 100%;
+  padding-left: 15px;
+  padding-top: 10px;
+  background-color: #fff;
+  border-top: 1px solid #F1F1F1;
+}
+
+.data-list ul li a{
+  font-family: Kanit-Regular;
+  color: #8a2be2 !important;
+  font-size: 14px;
+}
+.data-list ul li.last{
+  background-color: #be282d;
+  color: #000 !important;
+
+}
+.data-list ul li a img{
+  max-height: 30px;
+  margin-right: 15px;
+}
+.data-list ul li:hover{
+  background-color: rgba(175,0,0,.2);
+}
+ 
+.rig-in{
+/*  font-size: 24px;
+  right: 0;
+  position: absolute;
+  margin-right: 15px;*/
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 24px;
+  z-index: 999;
+
+}
+.rig-in a{
+  color: #fff;
+}
