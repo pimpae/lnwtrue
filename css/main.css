@@ -551,7 +551,7 @@ footer .menu-bto li a:hover{
   line-height: 0px;
   font-size: 14px;
 }
-.ex-now label:after{
+/*.ex-now label:after{
   content: "";
   width: 30px;
   height: 30px;
@@ -563,7 +563,7 @@ footer .menu-bto li a:hover{
   position: absolute;
   display: inline-block;
 }
-
+*/
 .ex-now label:hover {
   background: #FF3366;
   color: #fff;
@@ -621,7 +621,10 @@ footer .menu-bto li a:hover{
   }
 }
 @media only screen and (min-width: 992px) { /* PC */
-  
+  .ex-now li {
+ 
+    width:14%;
+  }
 }
 
 
